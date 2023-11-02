@@ -13,7 +13,7 @@
 	"homepage": "https//:julzmolina.com",
 	"repository": {
 		"type": "git",
-		"url": "https//:git"
+		"url": "https://github.com/juliomolinadev/sb-components"
 	},
 	"files": [
 		"dist/"
@@ -35,7 +35,8 @@
 		"storybook": "storybook dev -p 3000",
 		"build-storybook": "storybook build",
 		"clean": "rimraf dist/",
-		"copyfiles": "copyfiles -u 1 src/**/*.css dist/"
+		"copyfiles": "copyfiles -u 1 src/**/*.css dist/",
+		"push:npm": "np"
 	},
 	"devDependencies": {
 		"@storybook/addon-essentials": "^7.5.1",
@@ -55,6 +56,7 @@
 		"eslint-plugin-react-hooks": "^4.6.0",
 		"eslint-plugin-react-refresh": "^0.4.3",
 		"eslint-plugin-storybook": "^0.6.15",
+		"np": "^8.0.4",
 		"react": "^18.2.0",
 		"react-dom": "^18.2.0",
 		"rimraf": "^5.0.5",
